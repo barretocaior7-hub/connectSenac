@@ -1,5 +1,6 @@
 // server.js
 require('dotenv').config(); // Carrega as variáveis do arquivo .env
+require('./backend/cron/notificador')
 const express = require('express');
 const cors = require('cors');
 const db = require('./backend/config/database');
